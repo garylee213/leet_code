@@ -15,7 +15,8 @@
 #include "007.cc"
 #include "008.cc"
 #include "009.cc"
-#include "011.cc"
+#include "014.cc"
+#include "015.cc"
 
 using namespace std;
 
@@ -83,13 +84,34 @@ int main() {
     cout << s008.myAtoi( "   010" ) << endl;
     cout << s008.myAtoi( "    +0a32" ) << endl;
     cout << s008.myAtoi( "    +0 0123" ) << endl;
-    */
+
 
 	Solution011 s011;
 
 	vector<int> heights( {2,5,1,7,2,4} );
 
 	cout<<s011.maxArea(heights)<<endl;
+
+
+
+	Solution014 s014;
+
+	vector<string> strs( {"" } );
+
+	vector<string> strs1( {"aaa", "aa", "aaa" } );
+
+	cout << s014.longestCommonPrefix( strs ) << endl;
+*/
+
+	Solution015 s015;
+
+	vector<int> nums({1, -1, -1, 0});
+
+	for( auto triplet : s015.threeSum(nums) ) {
+
+		cout << "[ "<< triplet[0] <<", "<<triplet[1]<<", "<<triplet[2]<<" ]"<<endl;
+	}
+
 
     return 0;
 }

@@ -11,7 +11,9 @@ CC_SRCS += \
 ../src/007.cc \
 ../src/008.cc \
 ../src/009.cc \
-../src/011.cc 
+../src/011.cc \
+../src/014.cc \
+../src/015.cc 
 
 CPP_SRCS += \
 ../src/main.cpp 
@@ -24,7 +26,9 @@ CC_DEPS += \
 ./src/007.d \
 ./src/008.d \
 ./src/009.d \
-./src/011.d 
+./src/011.d \
+./src/014.d \
+./src/015.d 
 
 OBJS += \
 ./src/001.o \
@@ -35,6 +39,8 @@ OBJS += \
 ./src/008.o \
 ./src/009.o \
 ./src/011.o \
+./src/014.o \
+./src/015.o \
 ./src/main.o 
 
 CPP_DEPS += \
