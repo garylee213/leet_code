@@ -13,7 +13,17 @@ CC_SRCS += \
 ../src/009.cc \
 ../src/011.cc \
 ../src/014.cc \
-../src/015.cc 
+../src/015.cc \
+../src/016.cc \
+../src/017.cc \
+../src/018.cc \
+../src/022.cc \
+../src/029.cc \
+../src/034.cc \
+../src/035.cc \
+../src/039.cc \
+../src/046.cc \
+../src/048.cc 
 
 CPP_SRCS += \
 ../src/main.cpp 
@@ -28,7 +38,17 @@ CC_DEPS += \
 ./src/009.d \
 ./src/011.d \
 ./src/014.d \
-./src/015.d 
+./src/015.d \
+./src/016.d \
+./src/017.d \
+./src/018.d \
+./src/022.d \
+./src/029.d \
+./src/034.d \
+./src/035.d \
+./src/039.d \
+./src/046.d \
+./src/048.d 
 
 OBJS += \
 ./src/001.o \
@@ -41,6 +61,16 @@ OBJS += \
 ./src/011.o \
 ./src/014.o \
 ./src/015.o \
+./src/016.o \
+./src/017.o \
+./src/018.o \
+./src/022.o \
+./src/029.o \
+./src/034.o \
+./src/035.o \
+./src/039.o \
+./src/046.o \
+./src/048.o \
 ./src/main.o 
 
 CPP_DEPS += \
